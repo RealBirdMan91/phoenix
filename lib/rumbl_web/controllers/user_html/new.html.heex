@@ -1,0 +1,19 @@
+<section>
+    <h1>New User</h1>
+    <.form :let={f} for={@changeset} action={~p"/users"}>
+        <div>
+            <.input field={f[:name]} placeholder="Name" />
+            <%= for {msg, _opts} <- Keyword.get_values(f.errors, :name) do %>
+                <span class="error">
+                    spezial error <%= msg %>
+                </span>
+                <% end %>
+        </div>
+        <div>
+            <.input field={f[:username]} placeholder="Benutzername" />
+        </div>
+        <div>
+            <.button type="submit">Erstellen</.button>
+        </div>
+    </.form>
+</section>

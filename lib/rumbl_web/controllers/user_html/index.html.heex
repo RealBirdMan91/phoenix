@@ -1,0 +1,15 @@
+<section>
+    <h1>Listing Users</h1>
+    <table>
+        <%= for user <- @users do %>
+            <tr>
+                <td>
+                    <.user_strong user={user} />
+                </td>
+                <td>
+                    <.link navigate={~p"/users/#{user}"}>Show</.link>
+                </td>
+            </tr>
+            <% end %>
+    </table>
+</section>

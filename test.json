@@ -1,0 +1,488 @@
+{
+    "dropareas": [
+        {
+            "locks": [],
+            "number": 0,
+            "modules": [
+                {
+                    "id": "09bd2d52-1637-4732-87b3-a45a2ab2e9f9",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": null
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "text",
+                            "locks": [
+                                {
+                                    "mode": "CONTENT",
+                                    "type": "EDIT"
+                                }
+                            ],
+                            "value": "<div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "align",
+                            "locks": [],
+                            "value": "left"
+                        }
+                    ],
+                    "module_type_id": "macro_text_default",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "3335982b-75b9-43d7-9b40-142ccbf11013",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": null
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "category_text",
+                            "locks": [],
+                            "value": "Lorem ipsum",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "textalign",
+                            "locks": [],
+                            "value": 1
+                        }
+                    ],
+                    "module_type_id": "category",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "0e6414d6-322f-46df-a647-04645fcebac6",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [
+                            205
+                        ],
+                        "generated_text": "- Update Evalanche"
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "separator1",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "image_src",
+                            "locks": [
+                                {
+                                    "mode": "CONTENT",
+                                    "type": "EDIT"
+                                }
+                            ],
+                            "value": 272,
+                            "generation": {
+                                "type": "IMAGE",
+                                "active": false,
+                                "generator": null
+                            }
+                        },
+                        {
+                            "key": "image_alt",
+                            "locks": [],
+                            "value": "Text",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "headline",
+                            "locks": [],
+                            "value": "Lorem ipsum dolor sit amet",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "subheadline",
+                            "locks": [],
+                            "value": "Lorem ipsum dolor",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "shorttext",
+                            "locks": [],
+                            "value": "<p xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">test</span></p><p xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">foo</span></p><p xmlns=\"http://www.w3.org/1999/xhtml\" style=\"text-align: left;\" dir=\"ltr\"><b><strong class=\"editor-bold\" style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">hellod</strong></b></p><p xmlns=\"http://www.w3.org/1999/xhtml\"><br /></p><p xmlns=\"http://www.w3.org/1999/xhtml\"><br /></p><p xmlns=\"http://www.w3.org/1999/xhtml\"><br /></p><p xmlns=\"http://www.w3.org/1999/xhtml\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">dd</span></p>",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": true,
+                                "generators": [
+                                    205,
+                                    188
+                                ]
+                            }
+                        },
+                        {
+                            "key": "cta_text",
+                            "locks": [],
+                            "value": "CALL TO ACTION",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "cta_link",
+                            "locks": [],
+                            "value": "https://sc-networks.com"
+                        },
+                        {
+                            "key": "separator0",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "farbe",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "direction",
+                            "locks": [],
+                            "value": 4
+                        },
+                        {
+                            "key": "textalign",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "horizontal_ratio",
+                            "locks": [],
+                            "value": 50
+                        }
+                    ],
+                    "module_type_id": "bild_text",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "d2d0fbf8-a65a-46ab-8a27-1238e1a002d4",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": null
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "category_text",
+                            "locks": [
+                                {
+                                    "mode": "CONTENT",
+                                    "type": "EDIT"
+                                }
+                            ],
+                            "value": "Lorem ipsum",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "textalign",
+                            "locks": [],
+                            "value": 1
+                        }
+                    ],
+                    "module_type_id": "category",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "cf06a264-3429-4d81-a8f3-60670645fb14",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": ""
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "separator1",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "image_src",
+                            "locks": [],
+                            "value": 202,
+                            "generation": {
+                                "type": "IMAGE",
+                                "active": false,
+                                "generator": 187
+                            }
+                        },
+                        {
+                            "key": "image_alt",
+                            "locks": [],
+                            "value": "Text",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "headline",
+                            "locks": [],
+                            "value": "Wichtige Informationen",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "subheadline",
+                            "locks": [],
+                            "value": "Wartungsarbeiten am 09.09.2024 um 18:00 Uhr",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": true,
+                                "generators": [
+                                    190
+                                ]
+                            }
+                        },
+                        {
+                            "key": "shorttext",
+                            "locks": [],
+                            "value": "<p><b>Wichtige Ankündigung: Geplante Wartungsarbeiten am 09.09.2024</b></p>\n\n<p>Liebe Kunden und Partner,</p>\n\n<p>wir möchten Sie darüber informieren, dass am <b>09.09.2024 um 18:00 Uhr</b> Wartungsarbeiten an unserer Marketing Automation Software Evalanche durchgeführt werden. Diese Arbeiten sind notwendig, um die Leistungsfähigkeit und Sicherheit unseres Systems weiterhin zu gewährleisten.</p>\n\n<p><b>Auswirkung:</b></p>\n<p>Während der Wartungsarbeiten wird es zu einem <b>zweistündigen Systemausfall</b> kommen. In dieser Zeit wird Evalanche nicht verfügbar sein.</p>\n\n<p><b>Unsere Empfehlung:</b></p>\n<p>Bitte stellen Sie sicher, dass Sie alle Ihre Arbeiten vor Beginn der Wartungsarbeiten speichern. Nutzen Sie die Gelegenheit, um sich eine kleine Auszeit zu gönnen – vielleicht bei einem erfrischenden Bier.</p>\n\n<p>Wir danken Ihnen für Ihr Verständnis und Ihre Geduld. Sollten Sie Fragen oder Bedenken haben, steht Ihnen unser Support-Team gerne zur Verfügung.</p>\n\n<p>Mit freundlichen Grüßen,</p>\n\n<p>Ihr SC-Networks Team</p>",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": true,
+                                "generators": [
+                                    203
+                                ]
+                            }
+                        },
+                        {
+                            "key": "cta_text",
+                            "locks": [],
+                            "value": "Systemstatus",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "cta_link",
+                            "locks": [],
+                            "value": "https://evalanche.services"
+                        },
+                        {
+                            "key": "separator0",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "farbe",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "direction",
+                            "locks": [],
+                            "value": 3
+                        },
+                        {
+                            "key": "textalign",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "horizontal_ratio",
+                            "locks": [],
+                            "value": 50
+                        }
+                    ],
+                    "module_type_id": "bild_text",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "e6761f72-d208-4b16-81c3-7e6e4cab8b17",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": null
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "hr",
+                            "locks": [],
+                            "value": true
+                        },
+                        {
+                            "key": "padding_value",
+                            "locks": [],
+                            "value": "15px 20px",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "trenner_height",
+                            "locks": [],
+                            "value": 1
+                        }
+                    ],
+                    "module_type_id": "trenner",
+                    "targetgroup_id": null
+                },
+                {
+                    "id": "0b06212b-d3d6-4629-a523-f633df27a740",
+                    "locks": [],
+                    "generation": {
+                        "active": false,
+                        "generators": [],
+                        "generated_text": "\n"
+                    },
+                    "sub_modules": [],
+                    "configuration": [
+                        {
+                            "key": "separator1",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "image_src",
+                            "locks": [],
+                            "value": null,
+                            "generation": {
+                                "type": "IMAGE",
+                                "active": false,
+                                "generator": 187
+                            }
+                        },
+                        {
+                            "key": "image_alt",
+                            "locks": [],
+                            "value": "Text",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "headline",
+                            "locks": [],
+                            "value": "Important Information",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "subheadline",
+                            "locks": [],
+                            "value": "<p><b>Maintenance work</b> on <b>09/09/2024</b> at <b>18:00</b></p>",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": true,
+                                "generators": [
+                                    190,
+                                    188
+                                ]
+                            }
+                        },
+                        {
+                            "key": "shorttext",
+                            "locks": [],
+                            "value": "<p><b>Important Announcement: Scheduled Maintenance on 09.09.2024</b></p>\n\n<p>Dear Customers and Partners,</p>\n\n<p>We would like to inform you that on <b>09.09.2024 at 18:00</b>, maintenance work will be carried out on our marketing automation software Evalanche. This work is necessary to ensure the continued performance and security of our system.</p>\n\n<p><b>Impact:</b></p>\n<p>During the maintenance work, there will be a <b>two-hour system outage</b>. During this time, Evalanche will not be available.</p>\n\n<p><b>Our Recommendation:</b></p>\n<p>Please make sure to save all your work before the maintenance begins. Take this opportunity to enjoy a short break – perhaps with a refreshing beer.</p>\n\n<p>We thank you for your understanding and patience. If you have any questions or concerns, our support team will be happy to assist you.</p>\n\n<p>Best regards,</p>\n\n<p>Your SC-Networks Team</p>",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": true,
+                                "generators": [
+                                    203,
+                                    188
+                                ]
+                            }
+                        },
+                        {
+                            "key": "cta_text",
+                            "locks": [],
+                            "value": "Systemstatus",
+                            "generation": {
+                                "type": "TEXT",
+                                "active": false,
+                                "generators": []
+                            }
+                        },
+                        {
+                            "key": "cta_link",
+                            "locks": [],
+                            "value": "https://evalanche.services"
+                        },
+                        {
+                            "key": "separator0",
+                            "locks": [],
+                            "value": "Trenner-Text"
+                        },
+                        {
+                            "key": "farbe",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "direction",
+                            "locks": [],
+                            "value": 3
+                        },
+                        {
+                            "key": "textalign",
+                            "locks": [],
+                            "value": 1
+                        },
+                        {
+                            "key": "horizontal_ratio",
+                            "locks": [],
+                            "value": 50
+                        }
+                    ],
+                    "module_type_id": "bild_text",
+                    "targetgroup_id": null
+                }
+            ]
+        }
+    ]
+}
