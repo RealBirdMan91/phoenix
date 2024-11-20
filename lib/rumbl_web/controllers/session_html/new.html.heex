@@ -1,0 +1,10 @@
+<section>
+    <h1>Login</h1>
+    <.form :let={f} for={%{}} action={~p"/sessions"} as={:session}>
+        <.input field={f[:username]} label="Benutzername" />
+        <.input field={f[:password]} label="Passwort" type="password" />
+        <div>
+            <.button type="submit">Erstellen</.button>
+        </div>
+    </.form>
+</section>
