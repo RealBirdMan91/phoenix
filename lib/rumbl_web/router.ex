@@ -20,7 +20,14 @@ defmodule RumblWeb.Router do
     get "/", PageController, :home
 
     resources "/users", UserController, only: [:index, :show, :new, :create]
-    resources "/sessions", SessionController, only: [:new, :create, :delete]
+    resources "/sessions", SessionController, only: [:new, :create]
+    delete "/sessions", SessionController, :delete
+  end
+
+  scope "/manage", RumblWeb do
+    pipe_through [:browser, :authenticate_user]
+
+    resources "/videos", VideoController
   end
 
   # Other scopes may use custom stacks.

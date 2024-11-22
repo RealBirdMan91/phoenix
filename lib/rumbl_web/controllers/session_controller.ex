@@ -19,4 +19,11 @@ defmodule RumblWeb.SessionController do
         |> render(:new)
     end
   end
+
+  def delete(conn, _params) do
+    conn
+    |> RumblWeb.Auth.logout()
+    |> put_flash(:info, "Abmeldung erfolgreich")
+    |> redirect(to: ~p"/")
+  end
 end
