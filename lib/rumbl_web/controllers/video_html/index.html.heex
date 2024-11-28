@@ -7,7 +7,7 @@
   </:actions>
 </.header>
 
-<.table id="videos" rows={@videos} row_click={&JS.navigate(~p"/manage/videos/#{&1}")}>
+<.table id="videos" rows={@videos} row_click={&JS.navigate(~p"/watch/#{&1}")}>
   <:col :let={video} label="Url">
     <%= video.url %>
   </:col>

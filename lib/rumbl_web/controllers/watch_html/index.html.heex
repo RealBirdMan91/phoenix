@@ -1,0 +1,24 @@
+<section>
+    <div class="row">
+        <div class="column column-60">
+            <h1>
+                <%= @video.title %>
+            </h1>
+            <div id="video" data-id={@video.id} player_id={player_id(@video)}></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column column-60">
+            <h2>
+                Add a comment
+            </h2>
+
+            <div class="form-group
+                ">
+                <textarea rows="3" id="msg-input" name="body" placeholder="Comment..."></textarea>
+            </div>
+            <button id="msg-submit" class="button-primary" type="submit">Add Comment</button>
+        </div>
+    </div>
+</section>

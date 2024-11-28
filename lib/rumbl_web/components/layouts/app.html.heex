@@ -11,6 +11,9 @@
     <div class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">
       <.link navigate="/">Home</.link>
       <%= if @current_user do %>
+        <.link navigate="/manage/videos">
+          Videos
+        </.link>
         <.link navigate="/users">
           Users
         </.link>
